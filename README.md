@@ -17,4 +17,5 @@ Docker 镜像：pqguanyinli/v2ray:latest，pqguanyinli/v2ray:core版本号
 
 具体配置: 见 issues。
 
-openshift搭建v2ray流程  https://docs.google.com/document/d/17lLmEk3pp-IyNqqdtE100_0gpBwIetj71kwYzRrh4a4/edit?usp=sharing
+openshift搭建v2ray流程：
+https://docs.google.com/document/d/17lLmEk3pp-IyNqqdtE100_0gpBwIetj71kwYzRrh4a4/edit?usp=sharing
