@@ -17,6 +17,35 @@ Docker 镜像：pqguanyinli/v2ray-openshift:latest，pqguanyinli/v2ray-openshift
 
 具体配置: 见 issues。
 
+CONFIG_JSON 配置内容
+```
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "protocol": "vmess",
+    "port": 8080,
+    "settings": {
+      "clients": [
+        {
+          "id": "uuid换成你自己的",
+          "alterId": 64,
+          "security": "加密方式自己选"
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  },
+  "inboundDetour": [],
+  "outbound": {
+    "protocol": "freedom",
+   "settings": {}
+  }
+}
+```
 openshift搭建v2ray图文教程：
 
 https://docs.google.com/document/d/17lLmEk3pp-IyNqqdtE100_0gpBwIetj71kwYzRrh4a4/edit?usp=sharing
